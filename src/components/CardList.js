@@ -1,12 +1,11 @@
 import React from 'react';
 import Card from './Card.js';
 
-const CardList = ({robots}) => {    
-        return(
-            <> 
-                if(true){
-                    throw new Error('Testing')
-                }     
+const CardList = ({robots}) => { 
+  /*      if(true){
+            throw new Error('Testing')
+        }       */   
+        return(   
                 <div>
                     {
                     robots.map((user, i) => {
@@ -18,7 +17,6 @@ const CardList = ({robots}) => {
                     })
                     }
                 </div>
-            </>
         )
 }
 
